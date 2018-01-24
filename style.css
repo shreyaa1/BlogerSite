@@ -1,0 +1,169 @@
+/*
+Theme Name: blog pyplyn
+Theme URI: Your Theme's URI
+Description: A brief description.
+Version: 1.0
+Author: pyplyn
+Author URI: Your website address.
+*/
+*{
+  margin: 0;
+  padding: 0;
+}
+/*body{
+	background-color: blue;
+}*/
+.btn{
+	margin: 5px;
+  background-color: pink;
+  
+}
+.btn:hover{
+  background-color: #B5E5F1;
+
+}
+
+ .header ul {
+    margin: 0;
+    padding: 0;
+    /*overflow: hidden;*/
+    background-color: #333;
+    position: relative;
+
+}
+
+.header ul li{
+  list-style: none;
+  display: inline-block;
+}
+
+
+li a {
+    display: inline-block;
+    color: white;
+    
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+
+
+
+li a:hover {
+    background-color: #111;
+}
+a {
+	text-decoration: none;
+ }
+
+.footer{
+	text-align: center;
+	color: white;
+	line-height: 3;
+	background-color: black;
+
+}
+.logo{ 
+text-align: center;
+font-family (stack):
+body_font, "Helvetica Neue", Helvetica, Arial, sans-serif
+font-style: normal;
+font-weight: 100;
+padding-bottom: 20px;
+color: #6D2305;
+ }
+ #social{
+  position: absolute;
+  right: 20px;
+  top: 10px;
+ }
+ #social li{
+  list-style: none;
+  display: inline-block;
+  color: #ffffff;
+  padding-left: 10px;
+ }
+ #social i:hover{
+  font-size: 20px;
+    padding-top: 0;
+ } 
+ #social li i:nth-child(1):hover{
+  color: red;
+ }
+ #social li i:nth-child(2):hover{
+  color: #007293;
+ }
+ #social li i:nth-child(3):hover{
+  color: #C36A2C;
+ }
+ #social li i:nth-child(4):hover{
+  color: #C21A40;
+ }
+ #social li i:nth-child(5):hover{
+  color: #2020FF;
+ }/* span{
+    position: absolute;
+    top: 8px;
+    right: 10px;
+    }
+
+  span i{
+ 	color: white;
+ 	font-size: 35px;
+ 	padding: 10px;
+
+ }
+  span i:hover{
+  font-size: 20px;
+    padding-top: 0;
+ }
+
+  span i:nth-child(1):hover{
+ 	color: blue;
+ }
+ span i:nth-child(2):hover{
+  color: #007293;
+ }
+ span i:nth-child(3):hover{
+  color: #C36A2C;
+ }
+ span i:nth-child(4):hover{
+  color: #C21A40;
+ }
+ span i:nth-child(5):hover{
+  color: #2020FF;
+ }*/
+
+
+ img .image{
+ margin-bottom: 20px;
+ width: 100%;
+ }
+ img .image: hover{
+ 	width: 250px;
+ }
+ .heading{
+  border-bottom: 1px solid black;
+ } 
+
+ /*media query*/
+ @media(max-width: 768px){
+
+ /* .header{
+    display: none;
+  }
+*/
+  .header ul li{
+  
+  display: block;
+  }
+
+  span{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    }
+
+
+
+}
